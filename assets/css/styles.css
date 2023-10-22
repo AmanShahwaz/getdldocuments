@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+.main{
+    margin:10% 20%;
+    border: 1px solid silver;
+    padding: 20px;
+}
+.order{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+
+}
+hr{
+    margin-top: 15px;
+    color: gray;
+}
+#ticketid{
+    margin-left: 5px;
+    color: gray;
+}
+
+button{
+    padding: 10px;
+    background-color: rgb(4, 77, 248);
+    color: white;
+    border: 1px solid salmon;
+    transition: all 0.2s ease-in;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+button:hover{
+    background-color: white;
+    color: rgb(4, 77, 248);
+    border: 1px solid rgb(4, 77, 248);
+}
+
+.pname{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top:40px;
+    margin-bottom:30px;
+}
+#name{
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+#event{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+#infobox{
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-bottom: 25px;
+    text-align: justify;
+    color: rgb(103, 103, 103);
+}
+.table{
+    display: flex;
+}
+.card{
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+.content{
+    color: rgb(103, 103, 103);
+    font-weight: lighter;
+}
+a{
+    text-decoration: none;
+
+}
+
+@media (max-width: 700px) {
+    .main{
+        margin:5% 3%;
+    }
+    .order{
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        font-size: 1rem;
+    }
+    .table{
+        flex-direction: column;
+    }
+}
