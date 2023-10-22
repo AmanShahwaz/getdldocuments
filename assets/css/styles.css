@@ -96,4 +96,7 @@ a{
     .table{
         flex-direction: column;
     }
+    #event{
+        font-size:1.4rem;
+    }
 }
