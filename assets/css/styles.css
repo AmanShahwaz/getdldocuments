@@ -5,7 +5,9 @@
     box-sizing: border-box;
     font-family: 'Merriweather', serif;
 }
-
+#tick{
+    margin-right:5px;
+}
 .main{
     margin:10% 20%;
     border: 1px solid silver;
